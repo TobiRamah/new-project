@@ -1,0 +1,17 @@
+The git commit command is used to save changes to the local repo.
+ The process occurs in two steps. Using git add, the files move from 
+ working directory to a staging area. Then using git commit, the files move
+  from staging area to the local repo. (When we say move, the files doesn’t 
+  physically move to respective stages. It is just that there state changes 
+  with various commands.)
+
+Going back to the earlier git status output.
+
+Changes not staged for commit: The output tells us that that there is a
+ file which has changed but the changes have not moved to staging yet. 
+ (Then it provides a tip which says that using git add we can move a file 
+ to staging area)
+
+no changes added to commit (use "git add" and/or "git commit -a"): The 
+changes have not been added to the local repo. This is obvious since we 
+haven’t moved changes to staging yet.
